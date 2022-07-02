@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+
+{% load bootstrap3 %}
+
+{% block content %}
+    <html>
+        <body>
+            <!-- Header -->
+            {% include 'Header.html' %}
+            <p style="font-size:30px; text-align: center;">Search for diseases: <a href="https://www.health.gov.il/Subjects/disease/Pages/default.aspx">Visit ministry of Health</a> </p>
+            <p style="font-size:30px; text-align: center;">Medication information: <a href="https://www.health.gov.il/Subjects/PharmAndCosmetics/Pages/drug_Information.aspx">Visit ministry of Health</a></p>
+            <p style="font-size:30px; text-align: center;">Search for medicines: <a href="http://www.wikitrufot.org.il/index.php?title=%D7%A2%D7%9E%D7%95%D7%93_%D7%A8%D7%90%D7%A9%D7%99">Visit Wikitrufot</a> </p>
+            <!-- Footer -->
+            {% include 'Footer.html' %}
+        </body>
+    </html>
+{% endblock %}
